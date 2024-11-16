@@ -6,20 +6,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = getenv("API_ID", "")
 API_HASH = getenv("API_HASH", "")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+DURATION_LIMIT_MIN = getenv("DURATION_LIMIT", 600)
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
+LOG_GROUP_ID = getenv("LOG_GROUP_ID",)
 
-OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_ID = getenv("OWNER_ID", )
 
-OWNER = int(getenv("OWNER", ))
+OWNER = getenv("OWNER", )
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -38,9 +38,9 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+F3f-kuTzi2E4ZmFl")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", Fulse))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
+PLAYLIST_FETCH_LIMIT = getenv("PLAYLIST_FETCH_LIMIT", 25)
+TG_AUDIO_FILESIZE_LIMIT = getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000)
+TG_VIDEO_FILESIZE_LIMIT = getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000)
 
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
