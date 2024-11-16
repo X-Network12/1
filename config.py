@@ -6,21 +6,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = getenv("API_ID", "20252902")
-API_HASH = getenv("API_HASH", "5686c6a3cb3e303178c060c980a4ec9b")
+API_ID = int(getenv("API_ID", "6435225"))
+API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7256932579:AAETNJzsfxG2VqC-xfSJYeWS9kqR-dy5MDM")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somu:Somu@somu.xbkiklu.mongodb.net/?retryWrites=true&w=majority&appName=Somu
-")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = getenv("DURATION_LIMIT", 600)
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = getenv("LOG_GROUP_ID",-1002465721301)
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
 
-OWNER_ID = getenv("OWNER_ID", 6677494717)
+OWNER_ID = int(getenv("OWNER_ID", 7045191057))
 
-OWNER = getenv("OWNER", 6677494717)
+OWNER = int(getenv("OWNER", 2105971379))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -34,14 +33,14 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Shivang_xd")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+F3f-kuTzi2E4ZmFl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SuperBanSBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
-PLAYLIST_FETCH_LIMIT = getenv("PLAYLIST_FETCH_LIMIT", 25)
-TG_AUDIO_FILESIZE_LIMIT = getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000)
-TG_VIDEO_FILESIZE_LIMIT = getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000)
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
@@ -58,8 +57,8 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "")
-PING_IMG_URL = getenv("PING_IMG_URL", "")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
