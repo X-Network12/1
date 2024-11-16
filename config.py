@@ -15,11 +15,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", ))
 
-OWNER = int(getenv("OWNER", 2105971379))
+OWNER = int(getenv("OWNER", ))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -57,8 +57,8 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
+START_IMG_URL = getenv("START_IMG_URL", "")
+PING_IMG_URL = getenv("PING_IMG_URL", "")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
