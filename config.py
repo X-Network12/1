@@ -6,20 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = getenv("API_ID", "")
-API_HASH = getenv("API_HASH", "")
+API_ID = getenv("API_ID", "20252902")
+API_HASH = getenv("API_HASH", "5686c6a3cb3e303178c060c980a4ec9b")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somu:Somu@somu.xbkiklu.mongodb.net/?retryWrites=true&w=majority&appName=Somu
+")
 
 DURATION_LIMIT_MIN = getenv("DURATION_LIMIT", 600)
 
 LOG_GROUP_ID = getenv("LOG_GROUP_ID",)
 
-OWNER_ID = getenv("OWNER_ID", )
+OWNER_ID = getenv("OWNER_ID", 6677494717)
 
-OWNER = getenv("OWNER", )
+OWNER = getenv("OWNER", 6677494717)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
