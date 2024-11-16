@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Somu:Somu@somu.xbkiklu.mong
 
 DURATION_LIMIT_MIN = getenv("DURATION_LIMIT", 600)
 
-LOG_GROUP_ID = getenv("LOG_GROUP_ID",)
+LOG_GROUP_ID = getenv("LOG_GROUP_ID",-1002465721301)
 
 OWNER_ID = getenv("OWNER_ID", 6677494717)
 
